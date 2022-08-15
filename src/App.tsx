@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-// import Class from "@/components/Class";
 const Class = React.lazy(
   () =>
     import(
       /* webpackChunkName: "Class" */
       /*webpackPrefetch: true*/
-      "@/components/Class"
+      "@/components/ClassDemo"
     )
 );
 import "./app.css";
@@ -13,11 +12,11 @@ import "./app.less";
 
 function App() {
   const [color, setColor] = useState(false);
+
   return (
     <div>
-      <h2>
-        <Class></Class>webpack5-react-T {process.env.BASE_ENV}
-      </h2>
+      <h2>webpack5-react-T {process.env.BASE_ENV}</h2>
+      <Class />
       <div
         onClick={() => {
           setColor(!color);
