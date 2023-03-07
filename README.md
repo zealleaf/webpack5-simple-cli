@@ -1,6 +1,8 @@
 # webpack5-test
+> 一个基于webpack5的前端项目脚手架🪜  
 
-一个基于webpack5的前端项目脚手架🪜
+从零搭建webpack5开发环境，学习前端工程化⚙️
+
 
 ### 参考
 
