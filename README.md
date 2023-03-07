@@ -1,4 +1,4 @@
-# webpack5-test
+# webpack5-simple-cli
 > 一个基于webpack5的前端项目脚手架🪜  
 
 从零搭建webpack5开发环境，学习前端工程化⚙️
